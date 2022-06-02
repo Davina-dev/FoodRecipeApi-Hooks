@@ -11,7 +11,7 @@
 }
 
 .header-title {
-    margin: 2em auto auto 2em;
+    margin: 2em auto auto .5em;
     color: rgba(230, 203, 165, 0.24);
     width: 60%;
     height: 4em;
