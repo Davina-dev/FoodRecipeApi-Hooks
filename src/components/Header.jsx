@@ -12,9 +12,9 @@ const Header = () => {
         <div className="clear"></div>
       </div>
       <nav>
-        <div className="site-title">Traditional Recipes</div>
+        <div>Traditional Recipes</div>
         <ul className='nav-list'>
-          <li> <Link to={"/"}>🔎</Link> </li>
+          <li> <Link to={"/"}> 🔎 </Link> </li>
           <li>
             <Link to={"/ListFood"}>List Recipe</Link>
           </li>
