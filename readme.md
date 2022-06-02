@@ -1,5 +1,5 @@
 # FoodRecipeApi-Hooks
-<img src="./src/assets/img/hero.png" width="400"></a>
+<img src="./src/assets/img/hero.png" width="500"></a>
 #### Api: https://www.edamam.com/
 ______
 <p align="center" >
