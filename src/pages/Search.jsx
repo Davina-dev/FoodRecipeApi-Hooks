@@ -10,9 +10,12 @@ const Search = () => {
   const [query, setQuery] = useState('')
   const [recipes, setRecipes] = useState([])
 
+
   const APP_ID = 'a18dffae'
   const APP_KEY = 'a08efc4df30fdc8da774ada0ebbd42e5	'
   const url = `//api.edamam.com/search?&q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`
+
+
 
   const getData = async () => {
     const result = await Axios.get(url)
@@ -42,7 +45,7 @@ const Search = () => {
           name="query"
           onChange={onChange}
           value={query}
-          autoComplete="off"
+          minLength= {2}
           placeholder="  Search Food "
         />
         <input className="search-title" type="submit" value="Search" />
