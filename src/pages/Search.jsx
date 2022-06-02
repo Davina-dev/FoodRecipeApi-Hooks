@@ -4,6 +4,8 @@ import Recipe from '../components/Recipe'
 import '../assets/style/search.css'
 import { v4 as uuidv4 } from 'uuid' //para que se vayan errores de key
 
+
+
 const Search = () => {
   const [query, setQuery] = useState('')
   const [recipes, setRecipes] = useState([])

@@ -1,0 +1,6 @@
+.list-hero{
+    margin: 2em;
+    background-color: rgba(255, 224, 209, 0.319);
+    display: flex;
+    justify-content: center;
+}
