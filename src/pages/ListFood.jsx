@@ -5,7 +5,7 @@ import Recipe from '../components/Recipe'
 
 
 
-const ListFood = ({recipe}) => {
+const ListFood = () => {
   return (
     <div>
       <section className='list-hero'>

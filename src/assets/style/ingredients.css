@@ -1,0 +1,15 @@
+.ingredient-list{
+display: flex;
+flex-direction: column;
+width: 100%;
+margin-left: .6em;
+padding: 1em;
+text-align: start;
+}
+.ingredient-text{
+    list-style:circle;
+}
+.ingredient-weight{
+    color: gray;
+    list-style:none;
+}

@@ -5,8 +5,10 @@
   box-sizing: border-box;
 }
 input,
-button {
+button, a {
   border: none;
+  color: #0e0e0e;
+  text-decoration: none;
 }
 
 .search-container {
