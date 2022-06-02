@@ -36,7 +36,7 @@ nav div {
     visibility: hidden;
 }
 .nav-list li{
-    padding: 0 1em 0 1em;
+    padding: 0 0 1em;
     margin-left: 2em;
 }
 .nav-list li:hover{
