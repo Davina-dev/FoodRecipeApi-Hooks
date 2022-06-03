@@ -11,9 +11,10 @@ const Search = () => {
   const [recipes, setRecipes] = useState([])
 
 
-  const APP_ID = 'a18dffae'
-  const APP_KEY = 'a08efc4df30fdc8da774ada0ebbd42e5	'
-  const url = `//api.edamam.com/search?&q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`
+  const APP_ID = 'a18dffae';
+  const APP_KEY = 'a67c1e365f5287b3522b9f488d992d55';
+  const url = `https://api.edamam.com/api/recipes/v2?type=public&q=healthy&app_id=${APP_ID}&app_key=${APP_KEY}`;
+  
 
 
 
@@ -21,7 +22,7 @@ const Search = () => {
     const result = await Axios.get(url)
     setRecipes(result.data.hits)
     console.log(result)
-    setQuery('') //limpia el input
+    setQuery('') 
   }
   const onChange = (e) => {
     setQuery(e.target.value)
@@ -51,8 +52,7 @@ const Search = () => {
         <input className="search-title" type="submit" value="Search" />
       </form>
       <div className="container-recipes">
-        {recipes !== [] &&
-          recipes.map((recipe) => <Recipe key={uuidv4()} recipe={recipe} />)}
+        { recipes.map((recipe)=> <Recipe key={uuidv4()} recipe={recipe} />)}
       </div>
     </div>
   )

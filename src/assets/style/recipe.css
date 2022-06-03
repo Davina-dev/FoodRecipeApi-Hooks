@@ -21,6 +21,8 @@
 }
 .recipe-img {
   border-radius: 0.4em;
+  width: 14em;
+  height: 14em;
 }
 .recipe-buttons {
   width: 80%;
