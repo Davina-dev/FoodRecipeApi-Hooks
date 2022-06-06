@@ -4,9 +4,8 @@ import "../assets/style/listFood.css"
 
 
 
-
 const ListFood = () => {
-  
+
   return (
     <div>
       <section className='list-hero'>
@@ -14,9 +13,9 @@ const ListFood = () => {
       <img src="https://media1.giphy.com/media/5Fnm2CFdTfl04Ck2cs/200.webp?cid=790b7611tqrhi6tg55uq4pn6tawf3yfxfgryalgh2ilgvwfk&rid=200.webp&ct=s" alt="img hungry dragon " />
       </section>
 
-      {/* <div className="container-recipes">
-        { recipes.map((recipe)=> <Recipe key={uuidv4()} recipe={recipe} />)}
-      </div> */}
+      <div className="container-recipes">
+      <h1>img </h1>
+      </div>
     </div>
   )
 }
