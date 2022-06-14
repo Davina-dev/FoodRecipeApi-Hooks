@@ -1,0 +1,20 @@
+.yummy-hero{
+    margin: 2em;
+    background-color: rgba(255, 224, 209, 0.319);
+    display: flex;
+    justify-content: center;
+}
+
+.container-img{
+  display: flex;
+  justify-content: center;
+ overflow-x: scroll;
+ 
+    
+}
+
+.container-img img{
+    width: 400px;
+    margin: 1em;
+    border-radius: .1em;
+}

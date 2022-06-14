@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import Search from './pages/Search'
-import ListFood from './pages/ListFood'
+import ListFood from './pages/ImgFood'
 
 import Layout from './components/Layout'
 
